@@ -1,0 +1,69 @@
+/*Id takes precidence then claass then div*/
+
+div {
+
+
+}
+
+.info {
+
+}
+ 
+
+#info{
+
+
+}
+
+
+/*<--display type block = standard
+inline =all in one line
+none = invisible*/
+
+
+
+/*position relative = other elements treat as if in original position
+    absolute = other elements completely ignore*/
+
+
+.info {
+    position: relative;
+    position: absolute;
+    /* top left right bottom add pixels*/
+    top :10px;
+
+    /*fixed stays with scroll*/
+    position: fixed;
+    position: sticky;
+}
+
+
+/*sizing 
+html an body are parent size
+% is useful for changing scren size or can use pixels*/
+
+
+html, body
+{
+
+    height : 1000px;
+    height : 100%;
+}
+
+.info{
+    height: 2%;
+}
+
+
+/*margin is disance to parent
+  padding is distance to own border = inner content*/
+
+
+.info{
+
+    font-size: 0px;
+    font-weight: 100;
+    border-bottom: 0ch;
+}
+
+
